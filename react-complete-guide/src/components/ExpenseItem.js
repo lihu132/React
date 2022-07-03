@@ -14,6 +14,6 @@ function ExpenseItem() {
       </div>
     </div>
   );
-}
+} 
 
 export default ExpenseItem;
