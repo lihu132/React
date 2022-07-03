@@ -4,6 +4,6 @@ import "./index.css";
 import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-/* jshint ignore:start */
+// /* jshint ignore:start */
 root.render(<App />);
-/* jshint ignore:end */
+// /* jshint ignore:end */
