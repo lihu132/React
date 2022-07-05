@@ -5,24 +5,24 @@ function Expenses(props) {
   return (
     <div className="expenses">
       <ExpenseItem
-        title={props.all[0].title}
-        amount={props.all[0].amount}
-        date={props.all[0].date}
+        title={props.expenses[0].title}
+        amount={props.expenses[0].amount}
+        date={props.expenses[0].date}
       />
       <ExpenseItem
-        title={props.all[1].title}
-        amount={props.all[1].amount}
-        date={props.all[1].date}
+        title={props.expenses[1].title}
+        amount={props.expenses[1].amount}
+        date={props.expenses[1].date}
       />
       <ExpenseItem
-        title={props.all[2].title}
-        amount={props.all[2].amount}
-        date={props.all[2].date}
+        title={props.expenses[2].title}
+        amount={props.expenses[2].amount}
+        date={props.expenses[2].date}
       />
       <ExpenseItem
-        title={props.all[3].title}
-        amount={props.all[3].amount}
-        date={props.all[3].date}
+        title={props.expenses[3].title}
+        amount={props.expenses[3].amount}
+        date={props.expenses[3].date}
       />
     </div>
   );
