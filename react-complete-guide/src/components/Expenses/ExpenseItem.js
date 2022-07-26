@@ -1,3 +1,5 @@
+import React, { useState } from 'react';
+
 import "./ExpenseItem.css";
 import ExpenseDate from "./ExpenseDate";
 import Card from "../UI/Card";
@@ -6,10 +8,12 @@ const ExpenseItem = (props) => {
   // const expenseDate = new Date(2022, 5, 27);
   // const expenseTitle = "Car Insurance";
   // const expenseAmount = 294.67;
-  let title = props.title;
+
+  //useState return 2 elements, first is value itself, second is updating function
+  const [title, setTitle] = useState(props.title);
 
   const clickHandler = () => {
-      title ='Updated!';
+      setTitle('Updated!');
       console.log(title);
   }
 
